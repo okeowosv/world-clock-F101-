@@ -14,14 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: ElevatedButton.icon(
-          onPressed: () {},
-          icon: Icon(Icons.mail),
-          label: Text('mail me'),
-          style: ElevatedButton.styleFrom(
-            primary: Colors.amber,
-          ),
-        ),
+        child: Image.asset('assets/img/diogo-sousa-ZVKodjhgJa0-unsplash.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
