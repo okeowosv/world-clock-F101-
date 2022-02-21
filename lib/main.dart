@@ -13,8 +13,11 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: Image.asset('assets/img/diogo-sousa-ZVKodjhgJa0-unsplash.jpg'),
+      body: Container(
+        padding: EdgeInsets.all(20.0),
+        margin: EdgeInsets.all(30.0),
+        color: Colors.grey[400],
+        child: Text('Hello'),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
