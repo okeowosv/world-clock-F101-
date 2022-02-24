@@ -19,19 +19,20 @@ class Home extends StatelessWidget {
         children: [
           Row(
             children: [
-              Text('hello'),
-              Text('world'),
+              Container(
+                padding: EdgeInsets.all(30),
+                color: Colors.pinkAccent,
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Text('two'),
+                ),
+              ),
             ],
           ),
           Container(
             padding: EdgeInsets.all(20),
             color: Colors.cyan,
             child: Text('one'),
-          ),
-          Container(
-            padding: EdgeInsets.all(30),
-            color: Colors.pinkAccent,
-            child: Text('two'),
           ),
           Container(
             padding: EdgeInsets.all(40),
